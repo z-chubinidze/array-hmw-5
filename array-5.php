@@ -751,6 +751,58 @@
                 </div>
             </div>
 
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header text-bg-success">
+                        <h6 class="text-center">26.count() </h6>
+                    </div>
+                    <div class="card-body ps-3 text-bg-info">
+                        <p class=""> count() ფუნქცია აბრუნებს მასივში არსებული ელემენტების რაოდენობას </p>
+                        <p class="mb-0"><b>მას აქვს შემდეგი სინტაქსი:</b></p>
+                        <p class="mb-0">count(array, mode)</p>
+                    </div>
+                    <div class="card-footer text-bg-danger">
+                        <p class="text-center mb-3">example</p>
+                        <p>
+                            $cars=array("Volvo","BMW","Toyota");<br>
+                            echo count($cars);
+                        </p>
+                        <p class="text-center">output</p>
+                        <p ><?php
+                            $cars=array("Volvo","BMW","Toyota");
+                            echo count($cars);
+                           ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-header text-bg-success">
+                        <h6 class="text-center">27.end() </h6>
+                    </div>
+                    <div class="card-body ps-3 text-bg-info">
+                        <p class=""> end() ფუნქცია აბრუნებს მასივში არსებულ ბოლო ელემენტს </p>
+                        <p class="mb-0"><b>მას აქვს შემდეგი სინტაქსი:</b></p>
+                        <p class="mb-0">end(array)</p>
+                    </div>
+                    <div class="card-footer text-bg-danger">
+                        <p class="text-center mb-3">example</p>
+                        <p>
+                            $people = array("Peter", "Joe", "Glenn", "Cleveland");
+                            echo end($people);
+                        </p>
+                        <p class="text-center">output</p>
+                        <p ><?php
+                            $people = array("Peter", "Joe", "Glenn", "Cleveland");
+                            echo end($people);
+                           ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
 
 
         <div>
